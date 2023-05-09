@@ -1,0 +1,150 @@
+* {
+    
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.LogoAlura {
+    
+    position: relative;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+main {
+    
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    
+}
+
+::placeholder {color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensagem{
+
+    background-color: white;
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: static;
+    max-width: 100%;
+    height: 490px  
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.mensagem::placeholder{
+    
+    color: #343A40;
+    text-align: center;
+    
+    
+    }
+
+.botoes{
+    display: flex;
+  
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+}
+
+.botoes .btm-encriptar{
+    border: 1px  #FFFFFF;
+    background: #0A3871;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #FFFFFF;
+}
+
+.botoes .btm-descriptar{
+
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #0A3871;
+    
+
+}
+
+h6{
+    width: 228px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    position: relative;
+    top: 17px;
+    left: 38px;
+    
+}
+
+.informacao .img-aviso{
+    position: absolute;
+    left: 10%;
+    right: 0%;
+    top: 55%;
+    bottom: 0%;
+}
+
+button{
+
+    width: 280px;
+    height: 50px;
+    box-sizing: border-box;
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.btm-copiar{
+
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    left: 935px;
+    top: 467px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <img class="LogoAlura" src="/imagens/logo_alura.png" alt="Logo Alura">
+        </header>
+
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+                <img class="img-aviso"src="/imagens/aviso.png" alt="aviso!">
+            </div>
+
+            <div class="botoes">
+                <button class="btm-encriptar" onclick="btmEncriptar()">Criptografar</button>
+                <button class="btm-descriptar" onclick="btmDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea id="msg" class="mensagem" cols="20" rows="10" placeholder="Nenhuma mensagem encontrada"></textarea>
+
+            <button id="btm-copiar"class="btm-copiar">Copiar</button>
+        </section>
+
+    </main>
+   
+   <script>
+        document.getElementById("btm-copiar").addEventListener("click", function() {
+        document.getElementById("msg").select();
+        document.execCommand('copy');
+    })
+    </script>
+    
+    <script src="/scrip.js"></script>
+</body>
+
+</html>
